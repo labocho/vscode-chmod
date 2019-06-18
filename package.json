@@ -1,6 +1,6 @@
 {
-	"name": "chmod",
-	"displayName": "chmod",
+	"name": "chmod-command",
+	"displayName": "chmod Command",
 	"description": "Add commands to chmod current file",
 	"version": "0.0.1",
 	"engines": {
