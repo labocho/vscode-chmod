@@ -1,7 +1,7 @@
 {
-	"name": "chmod-x",
-	"displayName": "chmod x",
-	"description": "Add commands to chmod (+x|-x) current file",
+	"name": "chmod",
+	"displayName": "chmod",
+	"description": "Add commands to chmod current file",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.35.0"
@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.chmod"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [{
-			"command": "extension.helloWorld",
-			"title": "Hello World"
+			"command": "extension.chmod",
+			"title": "chmod"
 		}]
 	},
 	"scripts": {
@@ -32,5 +32,10 @@
 		"tslint": "^5.12.1",
 		"@types/node": "^10.12.21",
 		"@types/mocha": "^2.2.42"
+	},
+	"publisher": "labocho",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/labocho/vscode-chmod.git"
 	}
 }
